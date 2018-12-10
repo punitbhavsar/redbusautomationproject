@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MAVEN - CUCUMBER - TESTNG" parallel="methods" thread-count="4">
+    <test name="Cucumber Execution Result">                                 
+       <packages>
+              <package name="com.redbus.runnerClass.*" />              
+       </packages>
+	</test>      
+</suite>

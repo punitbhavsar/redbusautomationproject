@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [MAVEN - CUCUMBER - TESTNG]" parallel="methods">
+  <test name="Cucumber Execution Result(failed)" parallel="methods">
+    <classes>
+      <class name="com.redbus.runnerClass.RunnerClass">
+        <methods>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.redbus.runnerClass.RunnerClass -->
+    </classes>
+  </test> <!-- Cucumber Execution Result(failed) -->
+</suite> <!-- Failed suite [MAVEN - CUCUMBER - TESTNG] -->

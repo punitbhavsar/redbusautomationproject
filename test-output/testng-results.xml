@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MAVEN - CUCUMBER - TESTNG" duration-ms="22393" started-at="2018-12-10T08:17:25Z" finished-at="2018-12-10T08:17:47Z">
+    <groups>
+    </groups>
+    <test name="Cucumber Execution Result" duration-ms="22393" started-at="2018-12-10T08:17:25Z" finished-at="2018-12-10T08:17:47Z">
+      <class name="com.redbus.runnerClass.RunnerClass">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.redbus.runnerClass.RunnerClass@47c62251]" name="setUpClass" is-config="true" duration-ms="288" started-at="2018-12-10T13:47:25Z" finished-at="2018-12-10T13:47:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.redbus.runnerClass.RunnerClass@47c62251]" name="feature" duration-ms="21972" started-at="2018-12-10T13:47:25Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-12-10T13:47:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Search buses for return journey]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.redbus.runnerClass.RunnerClass@47c62251]" name="tearDownClass" is-config="true" duration-ms="15" started-at="2018-12-10T13:47:47Z" finished-at="2018-12-10T13:47:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.redbus.runnerClass.RunnerClass -->
+    </test> <!-- Cucumber Execution Result -->
+  </suite> <!-- MAVEN - CUCUMBER - TESTNG -->
+</testng-results>
